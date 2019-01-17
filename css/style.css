@@ -8,6 +8,7 @@ background: rgba(94, 138, 180, 1.0);
 
 .navbar {
 background: url('/images/aquaveo_logo.png') no-repeat 0 0;
+background-size: 200px 30px;
 }
 
 .logo {
