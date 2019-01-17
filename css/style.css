@@ -1,6 +1,11 @@
+body {
+background: #D7D3C7;
+}
+
 .navbar-inverse {
 background: rgba(94, 138, 180, 1.0);
 }
+
 .logo {
 padding-top: 8px;
 }
