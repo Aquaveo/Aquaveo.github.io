@@ -1,3 +1,4 @@
-.navbar-nverse {
+.navbar-inverse {
 background-image: linear-gradient(to bottom,#ff0000 0,#00ff00 100%);
+background-repeat: repeat-x;
 }
