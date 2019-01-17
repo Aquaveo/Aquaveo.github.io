@@ -7,9 +7,11 @@ background: rgba(94, 138, 180, 1.0);
 }
 
 .logo {
-padding-top: 8px;
+padding: 8px 0 0 0;
+margin: 0;
 background: url('/images/aquaveo_logo.png') no-repeat 0 8px;
 background-size: 200px 33px;
 width: 250px;
 height: 40px;
+float: left;
 }
