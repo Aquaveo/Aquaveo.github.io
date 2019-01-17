@@ -6,9 +6,8 @@ background: #D7D3C7;
 background: rgba(94, 138, 180, 1.0);
 }
 
-.container {
-background-image: url(images/aquaveo_logo.png) 8px 0;
-background-size: 200px auto;
+.navbar {
+background: url('/images/aquaveo_logo.png') no-repeat 0 0;
 }
 
 .logo {
