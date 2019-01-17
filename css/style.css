@@ -8,4 +8,6 @@ background: rgba(94, 138, 180, 1.0);
 
 .logo {
 padding-top: 8px;
+background: url('/images/aquaveo_logo.png') no-repeat;
+background-size: 200px auto;
 }
