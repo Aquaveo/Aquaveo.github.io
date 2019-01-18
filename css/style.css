@@ -17,5 +17,5 @@ float: left;
 }
 
 .hero {
-height: 200px; background: url('images/bluepill.png') no-repeat 0 0; background-size: auto 200px;
+height: 200px; background: url('../images/bluepill.png') no-repeat 0 0; background-size: auto 200px;
 }
