@@ -19,3 +19,17 @@ float: left;
 .hero {
 height: 200px; background: url('../images/bluepill.png') no-repeat 0 0; background-size: auto 200px;
 }
+
+.table-bordered {
+border: 0px;
+}
+
+.table-bordered>thead>tr>th {
+border: 0px;
+background: #b9b6ac;
+color: #fff;
+}
+
+.table-bordered>tbody>tr>td {
+border: 0px;
+}
