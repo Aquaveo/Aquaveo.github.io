@@ -33,6 +33,7 @@ border: none;
 }
 .navbar-default .navbar-nav>.active>a:hover {
     background: none;
+    color: #fff;
 }
 
 .logo {
