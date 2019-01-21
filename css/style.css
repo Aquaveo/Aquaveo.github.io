@@ -32,8 +32,7 @@ border: none;
     color: #fff;
 }
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #000;
-    background: #ff0000;
+    text-decoration: underline;
 }
 
 .logo {
