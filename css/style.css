@@ -15,6 +15,7 @@ border: none;
 }
 .navbar-default .navbar-nav>.active>a {
     background: none;
+    webkit-box-shadow: none;
 }
 
 .logo {
