@@ -9,6 +9,9 @@ background: rgba(94, 138, 180, 1.0);
 color: #d7d3c7;
 font-size:16px;
 }
+.navbar-default {
+background: rgba(94, 138, 180, 1.0);
+}
 
 .logo {
 padding: 8px 0 0 0;
