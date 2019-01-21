@@ -2,6 +2,9 @@ body {
 background: #D7D3C7;
 }
 
+.navbar {
+    margin-bottom: 0px;
+}
 .navbar-inverse {
 background: rgba(94, 138, 180, 1.0);
 }
@@ -16,6 +19,7 @@ border: none;
 .navbar-default .navbar-nav>.active>a {
     background: none;
     webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .logo {
