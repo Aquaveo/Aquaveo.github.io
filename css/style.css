@@ -46,6 +46,13 @@ height: 40px;
 float: left;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
 .hero {
 height: 200px; background: url('../images/bluepill.png') no-repeat 0 0; background-size: auto 200px;
 }
