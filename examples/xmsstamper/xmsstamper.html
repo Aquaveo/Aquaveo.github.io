@@ -16,27 +16,42 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-            <div class="navbar-header">
-            <div class="logo"></div>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbarcollapse-1">
-              <ul class="nav navbar-nav">
-                <li><a href="https://aquaveo.github.io">Home</a></li>
-                <li><a href="https://www.aquaveo.com/contact-us" target="_blank">Contact Us</a></li>
-              </ul>
-            </div>
-            </div>
-            </div><!--/.nav-collapse -->
-            </div>
-          </nav>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> <!-- was container-fluid -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="logo"></div>
+<!--      <a class="navbar-brand" href="#">Brand</a>  -->
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+<!--        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+        <li class="active"><a href="https://aquaveo.github.io">Home</a></li>
+        <li><a href="https://www.aquaveo.com/contact-us" target="_blank">Contact Us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Libraries <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="examples/xmscore/xmscore.html">XmsCore</a></li>
+            <li><a href="examples/xmsinterp/xmsinterp.html">XmsInterp</a></li>
+            <li><a href="examples/xmsgrid/xmsgrid.html">XmsGrid</a></li>
+            <li><a href="examples/xmsmesh/xmsmesh.html">XmsMesh</a></li>
+            <li><a href="examples/xmsstamper/xmsstamper.html">XmsStamper</a></li>
+            <li><a href="examples/xmsextractor/xmsextractor.html">XmsExtractor</a></li>
+            <li><a href="examples/xmsgridtrace/xmsgridtrace.html">XmsGridtrace</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
           <div class="hero"></div>
           <!-- Main Body -->
           <div class="container theme-showcase" style="padding-top: 50px;" role="main">
