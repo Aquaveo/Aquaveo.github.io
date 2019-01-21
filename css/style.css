@@ -31,6 +31,9 @@ border: none;
     box-shadow: none;
     color: #fff;
 }
+.navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+}
 
 .logo {
 padding: 8px 0 0 0;
