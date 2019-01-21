@@ -5,6 +5,9 @@ background: #D7D3C7;
 .navbar {
     margin-bottom: 0px;
 }
+.navbar>.active>a {
+    color: #ff0000;
+}
 .navbar-inverse {
 background: rgba(94, 138, 180, 1.0);
 }
