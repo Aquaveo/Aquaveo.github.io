@@ -52,6 +52,11 @@ border: none;
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
         margin-left: 0px;
 }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: none;
+}
+
+
 .logo {
 padding: 8px 0 0 0;
 margin: 0;
