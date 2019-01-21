@@ -5,7 +5,7 @@ background: #D7D3C7;
 .navbar {
     margin-bottom: 0px;
 }
-.navbar>.active>a {
+.navbar>.active>li>a {
     color: #ff0000;
 }
 .navbar-inverse {
