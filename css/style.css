@@ -36,6 +36,9 @@ border: none;
     color: #fff;
 }
 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-left: 0px;
+}
 .logo {
 padding: 8px 0 0 0;
 margin: 0;
