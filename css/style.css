@@ -35,6 +35,9 @@ border: none;
     background: none;
     color: #fff;
 }
+.navbar-default .navbar-nav>.open>a {
+    background-image: none; /* linear-gradient(to bottom,#ff0000 0,#e2e2e2 100%) */
+}
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
         margin-left: 0px;
