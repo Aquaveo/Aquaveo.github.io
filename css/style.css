@@ -42,14 +42,11 @@ border: none;
     box-shadow: none;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    background-color: none;
+    background-color: rgba(94, 138, 180, 1.0);
     color: #fff;
 }
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-    background-color: none;
-}
-.navbar-default .navbar-nav>.open>a {
-    
+    background-color: rgba(94, 138, 180, 1.0);
 }
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
         margin-left: 0px;
