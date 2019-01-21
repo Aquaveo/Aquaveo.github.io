@@ -37,6 +37,16 @@ border: none;
 }
 .navbar-default .navbar-nav>.open>a {
     background-image: none; /* linear-gradient(to bottom,#ff0000 0,#e2e2e2 100%) */
+    background-color: none;
+    webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: none;
+    color: #fff;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: none;
 }
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
