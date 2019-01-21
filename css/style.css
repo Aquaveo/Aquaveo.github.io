@@ -37,7 +37,7 @@ border: none;
 }
 .navbar-default .navbar-nav>.open>a {
     background-image: none; /* linear-gradient(to bottom,#ff0000 0,#e2e2e2 100%) */
-    background-color: none;
+    background-color: rgba(94, 138, 180, 1.0);
     webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -48,7 +48,9 @@ border: none;
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: none;
 }
-
+.navbar-default .navbar-nav>.open>a {
+    
+}
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
         margin-left: 0px;
 }
