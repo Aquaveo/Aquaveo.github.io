@@ -37,3 +37,7 @@ color: #fff;
 .table-bordered>tbody>tr>td {
 border: 0px;
 }
+
+.btn {
+    margin-bottom: 4px;
+}
