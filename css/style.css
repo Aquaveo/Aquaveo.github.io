@@ -54,6 +54,13 @@ border: none;
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     background-color: none;
 }
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #d7d3c7
+}
+}
+
+
 
 
 .logo {
