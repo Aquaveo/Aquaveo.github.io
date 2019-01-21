@@ -52,6 +52,9 @@ float: left;
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #000;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: none;
+}
 
 .hero {
 height: 200px; background: url('../images/bluepill.png') no-repeat 0 0; background-size: auto 200px;
