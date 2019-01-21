@@ -53,7 +53,7 @@ float: left;
     background-color: #000;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: none;
+    background-color: none !important;
 }
 
 .hero {
